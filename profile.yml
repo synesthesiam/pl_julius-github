@@ -1,0 +1,15 @@
+language:
+  name: "polish"
+  code: "pl"
+
+speech-to-text:
+  acoustic-model-type: "julius"
+  base-language-model: "base_language_model.lm"
+
+text-to-speech:
+  espeak:
+    voice: "pl"
+
+training:
+  acoustic-model-type: "julius"
+  word-casing: "upper"

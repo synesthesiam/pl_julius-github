@@ -1,0 +1,24 @@
+feature_type MFCC_E_D_A_Z
+feature_options -htkconf wav_config -cvn -cmnload model.norm -cvnstatic
+feature_len 48
+context_len 11
+input_nodes 528
+num_threads 1
+output_nodes 9807
+hidden_nodes 1536
+hidden_layers 5
+W1 model.layer2_weight.npy
+W2 model.layer3_weight.npy
+W3 model.layer4_weight.npy
+W4 model.layer5_weight.npy
+W5 model.layer6_weight.npy
+B1 model.layer2_bias.npy
+B2 model.layer3_bias.npy
+B3 model.layer4_bias.npy
+B4 model.layer5_bias.npy
+B5 model.layer6_bias.npy
+output_W model.layerout_weight.npy
+output_B model.layerout_bias.npy
+state_prior_factor 1.0
+state_prior model.prior
+state_prior_log10nize false
