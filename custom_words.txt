@@ -1,0 +1,8 @@
+GARAŻOWA	g a r a o w a
+GARAŻU	g a r a u
+LAMPĘ	l a m p
+SĄ	s
+WYŁĄCZ	w y cz
+WŁĄCZ	w cz
+ZAMKNIĘTE	a m k n' i t e
+ŚWIATŁO	w'' a t o

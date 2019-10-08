@@ -2,8 +2,8 @@
 -h model.am
 -hlist model.phn
 -b 4000 
--lmp 12 2
--lmp2 12 2
+#-lmp 12 2
+#-lmp2 12 2
 -fallback1pass
 -multipath
 -iwsp
@@ -21,4 +21,3 @@
 -lookuprange 5 
 -sb 80
 -forcedict
--cutsilence

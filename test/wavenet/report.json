@@ -4,126 +4,16 @@
     "num_words": 29,
     "num_entities": 8,
     "correct_transcriptions": 0,
-    "correct_intent_names": 2,
-    "correct_words": 9,
+    "correct_intent_names": 6,
+    "correct_words": 22,
     "correct_entities": 3,
-    "transcription_accuracy": 0.3103448275862069,
-    "intent_accuracy": 0.25,
+    "transcription_accuracy": 0.7586206896551724,
+    "intent_accuracy": 0.75,
     "entity_accuracy": 0.375
   },
   "actual": {
     "włącz_lampę_w_salonie.wav": {
-      "text": "off lampę w salonie",
-      "intent": {
-        "name": "ChangeLightState",
-        "confidence": 0.8
-      },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "off",
-          "raw_value": "wyłącz",
-          "start": 0,
-          "raw_start": 0,
-          "end": 3,
-          "raw_end": 6
-        },
-        {
-          "entity": "name",
-          "value": "lampę w salonie",
-          "raw_value": "lampę w salonie",
-          "start": 4,
-          "raw_start": 7,
-          "end": 19,
-          "raw_end": 22
-        }
-      ],
-      "raw_text": "wyłącz lampę w salonie",
-      "tokens": [
-        "off",
-        "lampę",
-        "w",
-        "salonie"
-      ],
-      "raw_tokens": [
-        "wyłącz",
-        "lampę",
-        "w",
-        "salonie"
-      ],
-      "slots": {
-        "state": "off",
-        "name": "lampę w salonie"
-      },
-      "intents": [],
-      "recognize_seconds": 0.0002529621124267578,
-      "transcribe_seconds": 0.7871973514556885,
-      "wav_seconds": 1.5650833333333334,
-      "word_error": {
-        "expected": "WłąCZ  lampę w   salonie",
-        "actual": "WYłąCZ lampę w   salonie",
-        "words": 4,
-        "correct": 3,
-        "errors": 1
-      }
-    },
-    "wyłącz_lampę_w_salonie.wav": {
-      "text": "off lampę w salonie",
-      "intent": {
-        "name": "ChangeLightState",
-        "confidence": 0.8
-      },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "off",
-          "raw_value": "wyłącz",
-          "start": 0,
-          "raw_start": 0,
-          "end": 3,
-          "raw_end": 6
-        },
-        {
-          "entity": "name",
-          "value": "lampę w salonie",
-          "raw_value": "lampę w salonie",
-          "start": 4,
-          "raw_start": 7,
-          "end": 19,
-          "raw_end": 22
-        }
-      ],
-      "raw_text": "wyłącz lampę w salonie",
-      "tokens": [
-        "off",
-        "lampę",
-        "w",
-        "salonie"
-      ],
-      "raw_tokens": [
-        "wyłącz",
-        "lampę",
-        "w",
-        "salonie"
-      ],
-      "slots": {
-        "state": "off",
-        "name": "lampę w salonie"
-      },
-      "intents": [],
-      "recognize_seconds": 0.00043320655822753906,
-      "transcribe_seconds": 0.8057255744934082,
-      "wav_seconds": 1.5977083333333333,
-      "word_error": {
-        "expected": "wyłącz lampę w   salonie",
-        "actual": "wyłącz lampę w   salonie",
-        "words": 4,
-        "correct": 4,
-        "errors": 0
-      }
-    },
-    "wyłącz_światło_garażu.wav": {
-      "text": "",
+      "text": "W CZY LAMPĘ SALONIE",
       "intent": {
         "name": "",
         "confidence": 0
@@ -131,19 +21,19 @@
       "entities": [],
       "intents": [],
       "slots": {},
-      "recognize_seconds": 5.316734313964844e-05,
-      "transcribe_seconds": 0.33069586753845215,
-      "wav_seconds": 1.6049166666666668,
+      "recognize_seconds": 0.0002129077911376953,
+      "transcribe_seconds": 0.9066402912139893,
+      "wav_seconds": 1.5650833333333334,
       "word_error": {
-        "expected": "WYłąCZ śWIATłO GARAżU",
-        "actual": "***      ***       ***",
-        "words": 3,
-        "correct": 0,
+        "expected": "WłąCZ LAMPę W      salonie",
+        "actual": "W       CZY    LAMPĘ salonie",
+        "words": 4,
+        "correct": 1,
         "errors": 3
       }
     },
-    "czy_drzwi_garażu_są_zamknięte.wav": {
-      "text": "LAMPĘ W GARAŻU",
+    "wyłącz_lampę_w_salonie.wav": {
+      "text": "W CZY LAMPĘ SALONIE",
       "intent": {
         "name": "",
         "confidence": 0
@@ -151,18 +41,71 @@
       "entities": [],
       "intents": [],
       "slots": {},
-      "recognize_seconds": 0.00031304359436035156,
-      "transcribe_seconds": 0.5740621089935303,
-      "wav_seconds": 2.2215,
+      "recognize_seconds": 0.0003466606140136719,
+      "transcribe_seconds": 0.9147424697875977,
+      "wav_seconds": 1.5977083333333333,
       "word_error": {
-        "expected": "CZY DRZWI GARAżU Są ZAMKNIęTE",
-        "actual": "*** ***   LAMPĘ  W   GARAŻU",
-        "words": 5,
-        "correct": 0,
-        "errors": 5
+        "expected": "WYłąCZ LAMPę W      salonie",
+        "actual": "W        CZY    LAMPĘ salonie",
+        "words": 4,
+        "correct": 1,
+        "errors": 3
       }
     },
-    "włącz_światło_garażu.wav": {
+    "wyłącz_światło_garażu.wav": {
+      "text": "off światło garażu",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 0.75
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "off",
+          "raw_value": "wyłącz",
+          "start": 0,
+          "raw_start": 0,
+          "end": 3,
+          "raw_end": 6
+        },
+        {
+          "entity": "name",
+          "value": "światło garażu",
+          "raw_value": "światło garażu",
+          "start": 4,
+          "raw_start": 7,
+          "end": 18,
+          "raw_end": 21
+        }
+      ],
+      "raw_text": "wyłącz światło garażu",
+      "tokens": [
+        "off",
+        "światło",
+        "garażu"
+      ],
+      "raw_tokens": [
+        "wyłącz",
+        "światło",
+        "garażu"
+      ],
+      "slots": {
+        "state": "off",
+        "name": "światło garażu"
+      },
+      "intents": [],
+      "recognize_seconds": 0.00047326087951660156,
+      "transcribe_seconds": 0.9184839725494385,
+      "wav_seconds": 1.6049166666666668,
+      "word_error": {
+        "expected": "wyłącz światło garażu",
+        "actual": "wyłącz światło garażu",
+        "words": 3,
+        "correct": 3,
+        "errors": 0
+      }
+    },
+    "czy_drzwi_garażu_są_zamknięte.wav": {
       "text": "czy drzwi garażu są zamknięte",
       "intent": {
         "name": "GetGarageState",
@@ -186,38 +129,71 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0003218650817871094,
-      "transcribe_seconds": 1.1490602493286133,
+      "recognize_seconds": 0.000362396240234375,
+      "transcribe_seconds": 1.3252553939819336,
+      "wav_seconds": 2.2215,
+      "word_error": {
+        "expected": "czy drzwi garażu są zamknięte",
+        "actual": "czy drzwi garażu są zamknięte",
+        "words": 5,
+        "correct": 5,
+        "errors": 0
+      }
+    },
+    "włącz_światło_garażu.wav": {
+      "text": "off światło garażu",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 0.75
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "off",
+          "raw_value": "wyłącz",
+          "start": 0,
+          "raw_start": 0,
+          "end": 3,
+          "raw_end": 6
+        },
+        {
+          "entity": "name",
+          "value": "światło garażu",
+          "raw_value": "światło garażu",
+          "start": 4,
+          "raw_start": 7,
+          "end": 18,
+          "raw_end": 21
+        }
+      ],
+      "raw_text": "wyłącz światło garażu",
+      "tokens": [
+        "off",
+        "światło",
+        "garażu"
+      ],
+      "raw_tokens": [
+        "wyłącz",
+        "światło",
+        "garażu"
+      ],
+      "slots": {
+        "state": "off",
+        "name": "światło garażu"
+      },
+      "intents": [],
+      "recognize_seconds": 0.00044465065002441406,
+      "transcribe_seconds": 0.8819749355316162,
       "wav_seconds": 1.56075,
       "word_error": {
-        "expected": "WłąCZ śWIATłO garażu *** ***",
-        "actual": "CZY     DRZWI     garażu Są ZAMKNIęTE",
+        "expected": "WłąCZ  światło garażu",
+        "actual": "WYłąCZ światło garażu",
         "words": 3,
-        "correct": 1,
-        "errors": 4
+        "correct": 2,
+        "errors": 1
       }
     },
     "która_godzina.wav": {
-      "text": "W WYŁĄCZ LAMPĘ W GARAŻU",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0003199577331542969,
-      "transcribe_seconds": 0.7705154418945312,
-      "wav_seconds": 1.0804583333333333,
-      "word_error": {
-        "expected": "*** ***      ***    KTóRA GODZINA",
-        "actual": "W   WYŁĄCZ LAMPĘ W      GARAŻU",
-        "words": 2,
-        "correct": 0,
-        "errors": 5
-      }
-    },
-    "jaka_jest_temperatura.wav": {
       "text": "która godzina",
       "intent": {
         "name": "GetTime",
@@ -235,18 +211,18 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0002593994140625,
-      "transcribe_seconds": 0.5402405261993408,
-      "wav_seconds": 1.6300416666666666,
+      "recognize_seconds": 0.0003323554992675781,
+      "transcribe_seconds": 0.5806658267974854,
+      "wav_seconds": 1.0804583333333333,
       "word_error": {
-        "expected": "JAKA JEST   TEMPERATURA",
-        "actual": "***  KTóRA GODZINA",
-        "words": 3,
-        "correct": 0,
-        "errors": 3
+        "expected": "która godzina",
+        "actual": "która godzina",
+        "words": 2,
+        "correct": 2,
+        "errors": 0
       }
     },
-    "czy_brama_garażowa_jest_otwarta.wav": {
+    "jaka_jest_temperatura.wav": {
       "text": "jaka jest temperatura",
       "intent": {
         "name": "GetTemperature",
@@ -266,15 +242,50 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0003027915954589844,
-      "transcribe_seconds": 0.8002798557281494,
+      "recognize_seconds": 0.0003161430358886719,
+      "transcribe_seconds": 0.9100046157836914,
+      "wav_seconds": 1.6300416666666666,
+      "word_error": {
+        "expected": "jaka jest temperatura",
+        "actual": "jaka jest temperatura",
+        "words": 3,
+        "correct": 3,
+        "errors": 0
+      }
+    },
+    "czy_brama_garażowa_jest_otwarta.wav": {
+      "text": "czy brama garażowa jest otwarta",
+      "intent": {
+        "name": "GetGarageState",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "czy brama garażowa jest otwarta",
+      "tokens": [
+        "czy",
+        "brama",
+        "garażowa",
+        "jest",
+        "otwarta"
+      ],
+      "raw_tokens": [
+        "czy",
+        "brama",
+        "garażowa",
+        "jest",
+        "otwarta"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.00033211708068847656,
+      "transcribe_seconds": 1.2406961917877197,
       "wav_seconds": 2.2183333333333333,
       "word_error": {
-        "expected": "CZY BRAMA GARAżOWA jest OTWARTA",
-        "actual": "*** ***   JAKA      jest TEMPERATURA",
+        "expected": "czy brama garażowa jest otwarta",
+        "actual": "czy brama garażowa jest otwarta",
         "words": 5,
-        "correct": 1,
-        "errors": 4
+        "correct": 5,
+        "errors": 0
       }
     }
   },
