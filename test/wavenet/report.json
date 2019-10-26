@@ -3,27 +3,32 @@
     "num_wavs": 8,
     "num_words": 29,
     "num_entities": 8,
-    "correct_transcriptions": 0,
+    "correct_transcriptions": 5,
     "correct_intent_names": 6,
     "correct_words": 22,
     "correct_entities": 3,
     "transcription_accuracy": 0.7586206896551724,
     "intent_accuracy": 0.75,
-    "entity_accuracy": 0.375
+    "entity_accuracy": 0.375,
+    "intent_entity_accuracy": 0.625,
+    "average_transcription_speedup": 1.917582783452067
   },
   "actual": {
     "włącz_lampę_w_salonie.wav": {
       "text": "W CZY LAMPĘ SALONIE",
       "intent": {
         "name": "",
-        "confidence": 0
+        "confidence": 0,
+        "expected_name": "ChangeLightState"
       },
       "entities": [],
       "intents": [],
       "slots": {},
-      "recognize_seconds": 0.0002129077911376953,
-      "transcribe_seconds": 0.9066402912139893,
+      "recognize_seconds": 0.0004894733428955078,
+      "transcribe_seconds": 0.8234379291534424,
       "wav_seconds": 1.5650833333333334,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "WłąCZ LAMPę W      salonie",
         "actual": "W       CZY    LAMPĘ salonie",
@@ -33,20 +38,23 @@
       }
     },
     "wyłącz_lampę_w_salonie.wav": {
-      "text": "W CZY LAMPĘ SALONIE",
+      "text": "W WYŁĄCZ LAMPĘ SALONIE",
       "intent": {
         "name": "",
-        "confidence": 0
+        "confidence": 0,
+        "expected_name": "ChangeLightState"
       },
       "entities": [],
       "intents": [],
       "slots": {},
-      "recognize_seconds": 0.0003466606140136719,
-      "transcribe_seconds": 0.9147424697875977,
+      "recognize_seconds": 0.00034737586975097656,
+      "transcribe_seconds": 0.8352384567260742,
       "wav_seconds": 1.5977083333333333,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "WYłąCZ LAMPę W      salonie",
-        "actual": "W        CZY    LAMPĘ salonie",
+        "expected": "WYłąCZ LAMPę   W      salonie",
+        "actual": "W        WYŁĄCZ LAMPĘ salonie",
         "words": 4,
         "correct": 1,
         "errors": 3
@@ -56,7 +64,8 @@
       "text": "off światło garażu",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 0.75
+        "confidence": 0.75,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -94,9 +103,11 @@
         "name": "światło garażu"
       },
       "intents": [],
-      "recognize_seconds": 0.00047326087951660156,
-      "transcribe_seconds": 0.9184839725494385,
+      "recognize_seconds": 0.00043082237243652344,
+      "transcribe_seconds": 0.8295059204101562,
       "wav_seconds": 1.6049166666666668,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "wyłącz światło garażu",
         "actual": "wyłącz światło garażu",
@@ -109,7 +120,8 @@
       "text": "czy drzwi garażu są zamknięte",
       "intent": {
         "name": "GetGarageState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "GetGarageState"
       },
       "entities": [],
       "raw_text": "czy drzwi garażu są zamknięte",
@@ -129,9 +141,11 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.000362396240234375,
-      "transcribe_seconds": 1.3252553939819336,
+      "recognize_seconds": 0.00033211708068847656,
+      "transcribe_seconds": 1.1983058452606201,
       "wav_seconds": 2.2215,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "czy drzwi garażu są zamknięte",
         "actual": "czy drzwi garażu są zamknięte",
@@ -144,7 +158,8 @@
       "text": "off światło garażu",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 0.75
+        "confidence": 0.75,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -182,9 +197,21 @@
         "name": "światło garażu"
       },
       "intents": [],
-      "recognize_seconds": 0.00044465065002441406,
-      "transcribe_seconds": 0.8819749355316162,
+      "recognize_seconds": 0.0004448890686035156,
+      "transcribe_seconds": 0.8163821697235107,
       "wav_seconds": 1.56075,
+      "wrong_entities": [
+        [
+          "state",
+          "off"
+        ]
+      ],
+      "missing_entities": [
+        [
+          "state",
+          "on"
+        ]
+      ],
       "word_error": {
         "expected": "WłąCZ  światło garażu",
         "actual": "WYłąCZ światło garażu",
@@ -197,7 +224,8 @@
       "text": "która godzina",
       "intent": {
         "name": "GetTime",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "GetTime"
       },
       "entities": [],
       "raw_text": "która godzina",
@@ -211,9 +239,11 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0003323554992675781,
-      "transcribe_seconds": 0.5806658267974854,
+      "recognize_seconds": 0.00030684471130371094,
+      "transcribe_seconds": 0.5382885932922363,
       "wav_seconds": 1.0804583333333333,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "która godzina",
         "actual": "która godzina",
@@ -226,7 +256,8 @@
       "text": "jaka jest temperatura",
       "intent": {
         "name": "GetTemperature",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "GetTemperature"
       },
       "entities": [],
       "raw_text": "jaka jest temperatura",
@@ -242,9 +273,11 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0003161430358886719,
-      "transcribe_seconds": 0.9100046157836914,
+      "recognize_seconds": 0.00030732154846191406,
+      "transcribe_seconds": 0.8468773365020752,
       "wav_seconds": 1.6300416666666666,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "jaka jest temperatura",
         "actual": "jaka jest temperatura",
@@ -257,7 +290,8 @@
       "text": "czy brama garażowa jest otwarta",
       "intent": {
         "name": "GetGarageState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "GetGarageState"
       },
       "entities": [],
       "raw_text": "czy brama garażowa jest otwarta",
@@ -277,9 +311,11 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.00033211708068847656,
-      "transcribe_seconds": 1.2406961917877197,
+      "recognize_seconds": 0.00032210350036621094,
+      "transcribe_seconds": 1.1708118915557861,
       "wav_seconds": 2.2183333333333333,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "czy brama garażowa jest otwarta",
         "actual": "czy brama garażowa jest otwarta",

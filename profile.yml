@@ -9,6 +9,8 @@ speech-to-text:
 text-to-speech:
   espeak:
     voice: "pl"
+  marytts:
+    voice: "amu-waldek-hsmm"
 
 training:
   acoustic-model-type: "julius"
