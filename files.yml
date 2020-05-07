@@ -83,7 +83,7 @@ default:
     sha256: 22c29f1943585aeea9cdd96596bb0cc4bea38c45285aae1aa8f66f7803274b09
   profile.yml:
     bytes: 693
-    sha256: bfc0f5bcd75c8794c8e943414a2f1263d864913c8fd594e1a9f962f2e13e0a88
+    sha256: b9734614386731ac0a34678e48623d671de495f4c93bd16d81b3f0f152a609cc
   slot_programs/rhasspy/number:
     bytes: 651
     sha256: d1f10ccea552c2c9ba2a59dd69705f8e82545592c7db5ca7078b462ed9d08387
