@@ -1,3 +1,7 @@
+---
+name: "pl_julius-github"
+version: "1.0"
+
 language:
   name: "polish"
   code: "pl"
