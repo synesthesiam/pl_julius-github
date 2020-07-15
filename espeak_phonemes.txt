@@ -1,14 +1,13 @@
 DZ dZ
-Z S
+Z Z
 a a
-a_ a:
 b b
 c ts
 cz tS
 d d
 dz dz;
 e E
-e_ m
+e_ ?
 f f
 g g
 h x
@@ -16,7 +15,7 @@ i i
 j j
 k k
 l l
-l_ f
+l_ fx
 m m
 n n
 o O
